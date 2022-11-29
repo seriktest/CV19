@@ -20,7 +20,6 @@ internal abstract class ViewModel : INotifyPropertyChanged, IDisposable
         OnPropertyChanged(propertyName);
         return true;
     }
-
     protected virtual void Dispose(bool disposing)
     {
         if (disposing)
@@ -28,7 +27,6 @@ internal abstract class ViewModel : INotifyPropertyChanged, IDisposable
             return;
         }
     }
-
     public void Dispose()
     {
         Dispose(true);

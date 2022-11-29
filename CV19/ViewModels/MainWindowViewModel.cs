@@ -8,7 +8,7 @@ internal class MainWindowViewModel: ViewModel
     /// <summary>
     /// Заголовок окна
     /// </summary>
-    private string _title;
+    private string _title = "Анализ";
     public string Title
     {
         get => _title;
